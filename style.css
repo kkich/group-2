@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
+.bd {
     font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
     background-color: #f8f9fa;
 }
@@ -251,11 +251,11 @@ li {
 .about {
     margin: 0% 0% 0% 18%;
 }
-
+/* 
 img {
     width: 60%;
     height: 80%;
-}
+} */
 
 .fabtwit {
     width: 30px;
@@ -271,214 +271,7 @@ img {
     width: 25px;
 }
 
-.body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: white;
-}
 
-section {
-    display: block;
-    background-color: white;
-}
-
-div {
-    display: block;
-}
-
-.element {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-h3 {
-    page-break-after: avoid;
-    orphans: 3;
-    widows: 3;
-    font-size: 1.75rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-i {
-    font-style: italic;
-}
-
-.m-auto {
-    margin: auto;
-}
-
-.ml-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mb-5 {
-    margin-bottom: 3rem;
-}
-
-.textt {
-    margin-bottom: 0;
-}
-
-.font {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-.box {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.text-primary {
-    color: rgb(0, 115, 255);
-}
-
-.icons-1 .icons-item .icons-icon i {
-    font-size: 4.5rem;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.text-center {
-    text-align: center;
-}
-
-*, ::before {
-    box-sizing: border-box;
-}
-
-.icons-1 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
-
-.icons-1 .features-icons-item {
-    max-width: 20rem
-}
-
-.icons-1 .icons-item .icons-icon {
-    height: 7rem
-}
-
-.icons-1 .icons-item:hover .icons-icon i {
-    font-size: 5rem
-}
-
-@media (max-width: 767px) {
-    .box {
-        width: 100%;
-        text-align: center;
-    }
-
-    .element {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 992px) {
-    .element {
-        flex: 33%;
-        max-width: 40%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .box {
-        max-width: 1140px;
-    }
-}
-
-.fff {
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-
-.h21 {
-    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    text-align: center;
-}
-
-.draw {
-    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-1.jpg);
-    min-height: 30rem;
-    background-size: cover;
-    position: relative;
-    width: 55.5%;
-}
-
-@media (min-width: 768px){
-.draw . {
-    padding: 7rem;
-}}
-
-.fff {
-    text-align: center;
-}
-
-.texttt {
-    padding: 7%;
-    width: 40%;
-  
-}
-
-.drawtwo {
-    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-2.jpg);
-    min-height: 30rem;
-    background-size: cover;
-    position: relative;
-    width: 55.5%;
-}
-
-.drawthree {
-    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-3.jpg);
-    min-height: 30rem;
-    background-size: cover;
-    position: relative;
-    width: 55.5%;
-}
-
-.contain {
-    display: flex;
-    flex-direction: column;
-}
 
 .cards {
     display: flex;
@@ -495,15 +288,228 @@ p {
     border-radius: 200px;
     box-shadow: 2px 2px 6px 0px  rgba(0, 0, 0, 0.766);
   }
-  .card .text {
+  .card .text1 {
     padding: 1px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
   }
-    .h23{
+    h2{
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       color: rgb(40, 40, 40);
       text-align: center;
     }
     h3{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .fff {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    
+    h2 {
+        font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .draw {
+        background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-1.jpg);
+        min-height: 30rem;
+        background-size: cover;
+        position: relative;
+        width: 50%;
+    }
+    
+    @media (min-width: 768px){
+    .draw . {
+        padding: 7rem;
+    }}
+    
+    .fff {
+        text-align: center;
+    }
+    
+    .texttt {
+        padding: 7%;
+        width: 40%;
+      
+    }
+    
+    .drawtwo {
+        background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-2.jpg);
+        min-height: 30rem;
+        background-size: cover;
+        position: relative;
+        width: 55.5%;
+    }
+    
+    .drawthree {
+        background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-3.jpg);
+        min-height: 30rem;
+        background-size: cover;
+        position: relative;
+        width: 55.5%;
+    }
+    
+    .contained {
+        display: flex;
+        flex-direction: column;
+    }
+    html {
+        font-family: sans-serif;
+        line-height: 1.15;
+    }
+    
+    .body {
+        margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        background-color: white;
+    }
+    
+    section {
+        display: block;
+        background-color: white;
+    }
+    
+    div {
+        display: block;
+    }
+    
+    .element {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    h3 {
+        page-break-after: avoid;
+        orphans: 3;
+        widows: 3;
+        font-size: 1.75rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    i {
+        font-style: italic;
+    }
+    
+    .m-auto {
+        margin: auto;
+    }
+    
+    .ml-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .mb-5 {
+        margin-bottom: 3rem;
+    }
+    
+    .textt {
+        margin-bottom: 0;
+    }
+    
+    .font {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    
+    .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .box {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        display: block;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    .text-primary {
+        color: rgb(0, 115, 255);
+    }
+    
+    .icons-1 .icons-item .icons-icon i {
+        font-size: 4.5rem;
+    }
+    
+    .d-flex {
+        display: flex;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    *, ::before {
+        box-sizing: border-box;
+    }
+    
+    .icons-1 {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    
+    .icons-1 .features-icons-item {
+        max-width: 20rem
+    }
+    
+    .icons-1 .icons-item .icons-icon {
+        height: 7rem
+    }
+    
+    .icons-1 .icons-item:hover .icons-icon i {
+        font-size: 5rem
+    }
+    
+    @media (max-width: 767px) {
+        .box {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .element {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .element {
+            flex: 33%;
+            max-width: 40%;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .box {
+            max-width: 1140px;
+        }
     }
