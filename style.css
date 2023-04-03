@@ -452,3 +452,58 @@ p {
     h3{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+
+.fff {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.h21 {
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.draw {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-1.jpg);
+    min-height: 30rem;
+    background-size: cover;
+    position: relative;
+    width: 55.5%;
+}
+
+@media (min-width: 768px){
+.draw . {
+    padding: 7rem;
+}}
+
+.fff {
+    text-align: center;
+}
+
+.texttt {
+    padding: 7%;
+    width: 40%;
+  
+}
+
+.drawtwo {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-2.jpg);
+    min-height: 30rem;
+    background-size: cover;
+    position: relative;
+    width: 55.5%;
+}
+
+.drawthree {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-3.jpg);
+    min-height: 30rem;
+    background-size: cover;
+    position: relative;
+    width: 55.5%;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+}
